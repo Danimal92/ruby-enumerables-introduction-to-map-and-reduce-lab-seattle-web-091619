@@ -63,7 +63,7 @@ end
 def reduce_to_any_true(source_array)
   
   source_array.each do |i|
-   if !!i 
+   if !!i == true
       return true
    else
      
@@ -71,9 +71,7 @@ def reduce_to_any_true(source_array)
       
     end
     return false
-    
-    
-end
+  end
 end
 
 
