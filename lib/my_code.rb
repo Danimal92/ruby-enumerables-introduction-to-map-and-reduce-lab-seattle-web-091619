@@ -63,7 +63,7 @@ end
 def reduce_to_any_true(source_array)
   
   source_array.each do |i|
-   if i == true
+   if i.class == true 
       return true
     
    
